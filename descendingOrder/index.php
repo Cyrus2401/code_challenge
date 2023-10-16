@@ -14,11 +14,13 @@
     
         }
         
-        echo $descendingOrderNumber;
+        echo $descendingOrderNumber . "<br>";
+
+        echo gettype($descendingOrderNumber);
 
     }
 
-    descendingOrder(501245)
+    descendingOrder(501245) 
 
 ?>
 
